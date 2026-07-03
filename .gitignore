@@ -1,0 +1,15 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.ps1xml
+*.psc1
+*.psm1
+
+# Config overrides
+*.local.ps1
+
+# Temp
+*.log
+*.tmp

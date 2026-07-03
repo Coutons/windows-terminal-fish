@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Windows Terminal Fish - Preview</title>
+<style>
+  body { background: #1e1e2e; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: 'Cascadia Code', 'Cascadia Mono', 'Fira Code', monospace; padding: 40px; box-sizing: border-box; }
+  .terminal { background: #1e1e2e; border: 1px solid #45475a; border-radius: 12px; padding: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); max-width: 800px; width: 100%; }
+  .title-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #313244; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.r { background: #f38ba8; }
+  .dot.y { background: #f9e2af; }
+  .dot.g { background: #a6e3a1; }
+  .title-text { color: #6c7086; font-size: 13px; margin-left: 8px; }
+  .line { color: #cdd6f4; font-size: 14px; line-height: 1.6; white-space: pre; }
+  .cyan { color: #94e2d5; }
+  .green { color: #a6e3a1; }
+  .pink { color: #f5c2e7; }
+  .purple { color: #cba6f7; }
+  .yellow { color: #f9e2af; }
+  .red { color: #f38ba8; }
+  .blue { color: #89b4fa; }
+  .dim { color: #585b70; }
+  .teal { color: #a6e3a1; }
+  .orange { color: #fab387; }
+  .box { border: 1px solid #313244; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .box-title { color: #6c7086; font-size: 12px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="terminal">
+  <div class="title-bar">
+    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+    <span class="title-text">?? Windows Terminal Fish — PowerShell</span>
+  </div>
+
+  <div class="box">
+    <div class="box-title">Demo 1: System Info & Dragon Logo</div>
+    <div class="line">               <span class="purple">__====-_  _-====___</span>                    <span class="green">jainu@DESKTOP</span></div>
+    <div class="line">      <span class="purple">_--^^^#####//      \\#####^^^--_</span>                <span class="dim">--------------</span></div>
+    <div class="line">   <span class="purple">_-^##########// (    ) \\##########^-_</span>             <span class="cyan">OS</span>  ? Windows 11</div>
+    <div class="line">  <span class="purple">-############//  |\^^/|  \\############-</span>            <span class="cyan">CPU</span> ? Ryzen 5 5600G</div>
+    <div class="line"><span class="purple">_/############//   (@::@)   \\############\_</span>          <span class="cyan">Mem</span> ? 6.3 GiB / 16 GiB</div>
+    <div class="line"> <span class="pink"> ###################\\/  (_)  \/###################-</span>     </div>
+    <div class="line"> <span class="pink">|/ |#/\#/\#/\/  \#/\##\  ! ' !  /##/\#/  \/\#/\#\|</span>      </div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">Demo 2: Fish-like Prompt</div>
+    <div class="line"><span class="green">jainu</span><span class="dim">@</span><span class="teal">DESKTOP</span> <span class="pink">in</span> ~/projects</div>
+    <div class="line"><span class="orange">?? 3.12.0</span> <span class="purple">? main =</span> <span class="dim">??</span> 23:42:03</div>
+    <div class="line"><span class="blue">PS</span> <span class="cyan">C:\Users\jainu\projects</span>&gt; <span class="line">git status</span></div>
+    <div class="line"><span class="blue">PS</span> <span class="cyan">C:\Users\jainu\projects</span>&gt; <span class="dim">npm run dev</span>  <span class="dim">? history suggestion</span></div>
+    <div class="line"><span class="blue">PS</span> <span class="cyan">C:\Users\jainu\projects</span>&gt; <span class="pink">¦</span></div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">Demo 3: Key Bindings</div>
+    <div class="line"><span class="yellow">?/?</span>    History search (fuzzy match like fish)</div>
+    <div class="line"><span class="yellow">Tab</span>    Complete command/argument</div>
+    <div class="line"><span class="yellow">Ctrl+R</span>  Fuzzy history search (fzf)</div>
+    <div class="line"><span class="yellow">Ctrl+T</span>  Fuzzy file search (fzf)</div>
+    <div class="line"><span class="yellow">Alt+D</span>   Duplicate pane (Windows Terminal)</div>
+  </div>
+</div>
+</body>
+</html>

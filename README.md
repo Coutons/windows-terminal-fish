@@ -3,10 +3,15 @@
 > **One-command setup** for a beautiful, fish-like PowerShell terminal on Windows.
 > oh-my-posh + Catppuccin Mocha + Nerd Font + Modern CLI tools.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue)](https://github.com/PowerShell/PowerShell)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/)
-[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6)](https://www.microsoft.com/windows)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
+  <a href="https://github.com/PowerShell/PowerShell"><img src="https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?logo=powershell&logoColor=white" alt="PowerShell"></a>
+  <a href="https://www.microsoft.com/windows"><img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows&logoColor=white" alt="Windows"></a>
+  <a href="https://ohmyposh.dev"><img src="https://img.shields.io/badge/oh--my--posh-29.18%2B-FF6B6B" alt="oh-my-posh"></a>
+  <a href="https://github.com/Coutons/windows-terminal-fish"><img src="https://img.shields.io/github/stars/Coutons/windows-terminal-fish?style=flat&logo=github" alt="GitHub Stars"></a>
+  <a href="https://github.com/Coutons/windows-terminal-fish/issues"><img src="https://img.shields.io/github/issues/Coutons/windows-terminal-fish" alt="Issues"></a>
+  <a href="https://github.com/Coutons/windows-terminal-fish/actions"><img src="https://img.shields.io/badge/status-ready-success" alt="PRs Welcome"></a>
+</p>
 
 ## ✨ Features
 
@@ -26,6 +31,28 @@
 
 ## 📸 Preview
 
+> **Tip:** Open [`preview.html`](preview.html) in a browser to see a rendered demo.
+> To add real screenshots, take a screenshot of your terminal and save as `screenshot-1.png`, `screenshot-1.png`, `screenshot-3.png` in the repo root, then uncomment the images below.
+
+<!-- Uncomment these lines after adding screenshot images:
+<p align="center">
+  <img src="screenshot-1.png" alt="Terminal with dragon logo and system info" width="80%">
+  <br><em>Demo 1: System info with dragon ASCII art</em>
+</p>
+
+<p align="center">
+  <img src="screenshot-2.png" alt="Fish-like prompt with git status" width="80%">
+  <br><em>Demo 2: oh-my-posh fish-like prompt with git branch</em>
+</p>
+
+<p align="center">
+  <img src="screenshot-3.png" alt="CLI tools in action: bat, fd, fzf" width="80%">
+  <br><em>Demo 3: Modern CLI tools — bat, fd, and fzf</em>
+</p>
+-->
+
+### ASCII preview
+
 ```
                    __====-_  _-====___                    user@DESKTOP
           _--^^^#####//      \\#####^^^--_                ─────────────────
@@ -41,7 +68,7 @@
  ||/  V  V '   '   V  \#\_____/##/  V   '   '  V   \||   jainu in ~/projects
  || \  \  |  |  |  |  |  |  |  |  |  |  |  |  /  / ||    🐍 3.12.0  main ≡ 
  ||  \ | | |  |  |  |  |  |  |  |  |  |  |  | | /  ||    $ ▊
-```
+ ```
 
 ## 🚀 Quick start
 
@@ -136,6 +163,10 @@ windows-terminal-fish/
 .\uninstall.ps1 -KeepProfile   # keep profile, remove tools
 .\uninstall.ps1 -KeepTools     # keep tools, remove profile
 ```
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Coutons/windows-terminal-fish&type=Date)](https://star-history.com/#Coutons/windows-terminal-fish&Date)
 
 ## 🤝 Contributing
 

@@ -47,7 +47,7 @@
 
 ```powershell
 # 1. Clone or download this repo
-git clone https://github.com/YOUR_USERNAME/windows-terminal-fish.git
+git clone https://github.com/Coutons/windows-terminal-fish.git
 cd windows-terminal-fish
 
 # 2. Customize (optional)
